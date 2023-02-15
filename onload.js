@@ -43,17 +43,36 @@
        //function RAINBOW(elm){
         //elm.style.background ="red";
        //}
-       function dows(){
-        window.alert('page is loaded successfully');
-       }
+      // function dows(){
+        //window.alert('page is loaded successfully');
+       //}  
+   //function displayWindowSize() {
+    //var w = window.outerWidth;
+    //var h = window.outerHeight;
+    //var txt = "Window size: width=" + w + ", height=" + h;
+    //document.getElementById("result").innerHTML = txt;
+    //window.onresize=displayWindowSize;
+  //}
+        
 
-       function displayWindowSize(){
-        var w= window.outerWidth;
-        var h= Window.outerHeight;
+var now=new Date();
+var dayofWeek=now.getDay();
 
-        var txt ="window size: width"+w+ ", hieght="+ h;
-        document.getElementById("result").innerHTML=html;
+if(dayofWeek==1)
+      {
+        alert("its a monday");
+      }  
+      elseif(dayofWeek==5)
+      {
+        alert("have a nice tuesday");
+      }
+     else 
+     {
+        alert("have a nice day");
+     }
+      
+      
 
-       }
-       window.onresize=displayWindowSize;
-
+    
+ 
+    
